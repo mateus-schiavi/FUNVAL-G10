@@ -1,0 +1,38 @@
+.app-container {
+    display: flex;
+  }
+  
+  .left-section {
+    color: black;
+    flex: 1;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    color: black;
+    flex: 1;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .background-left {
+    background-color: lightblue; /* Cor de fundo da esquerda */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .background-right {
+    background-color: lightgreen; /* Cor de fundo da direita */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para arredondar a foto */
+  .photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
